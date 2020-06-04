@@ -1,7 +1,8 @@
 import React from 'react';
-import MyComponent from './MyComponent';
-import Counter from './Counter';
-import Say from './Say';
+// import MyComponent from './MyComponent';
+// import Counter from './Counter';
+// import Say from './Say';
+import EventPractice from './EventPractice';
 import './App.css';
 
 // function App() {
@@ -23,7 +24,8 @@ import './App.css';
 // }
 
 const App = () => {
-  return <Say />;
+  return <EventPractice />;
+  // <Say />;
   // <Counter/>;
   // <MyComponent name="React" favoriteNumber={2}>리액트</MyComponent>
 };
