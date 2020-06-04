@@ -1,26 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
+import MyComponent from './MyComponent';
+import Counter from './Counter';
+import Say from './Say';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// function App() {
+//   const name = '리액트';
+//   const style = {
+//     backgroundColor: 'black',
+//     color:'aqua',
+//     padding: 16
+//   };
+//   return (
+//     <div style={style} className="react">
+//       {name === '리액트'?(
+//         <h1>리액트입니다</h1>
+//       ):(
+//         <h1>Not react</h1>
+//       )}
+//     </div>
+//   );
+// }
+
+const App = () => {
+  return <Say />;
+  // <Counter/>;
+  // <MyComponent name="React" favoriteNumber={2}>리액트</MyComponent>
+};
 
 export default App;
